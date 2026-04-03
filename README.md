@@ -107,7 +107,7 @@ flowchart LR
     S1 --> B
     S2 --> B
 
-    D -->|/api/sources/<code>/results/latest/| B
+    D -->|/api/sources/{code}/results/latest/| B
     D -->|/api/search/| B
 ```
 
