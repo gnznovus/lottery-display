@@ -1,0 +1,126 @@
+
+    /* 🚀 High-Priority Styles for Lottery Display */
+    .lottery-container {
+        max-width: 800px !important;
+        margin: 20px auto !important;
+        padding: 15px !important;
+        border: 2px solid #000000 !important;
+        background: #ffffff !important;
+        border-radius: 5px !important;
+        font-family: Kanit !important;
+        font-size: 16px !important;
+    }
+
+    /* ✅ Huayrat-Specific Styles */
+    .lottery-container.huayrat {
+        border: 2px solid #000000 !important;
+        padding: 20px !important;
+        background: #ffffff !important;
+    }
+    
+    .lottery-table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+    
+    .lottery-table-header {
+        text-align: center;
+    }
+
+    .lottery-header-cell {
+        background: #ffffff !important;
+        color: #ffffff !important;
+        text-align: center;
+    }
+
+    .lottery-cell {
+        background: #ffffff !important;
+        color: #333333 !important;
+        text-align: center;
+    }
+
+    .lottery-cell, .lottery-header-cell {
+        border: 2px solid #000000 !important;
+        border-radius: 5px !important;
+    }
+
+    /* 📌 Main Layout (1:2 Ratio) */
+    .lottery-huayrat-wrapper {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: stretch !important;
+        gap: 20px !important; /* Adjust spacing */
+    }
+
+    /* 📌 Left Side - Expanded Main Prize */
+    .lottery-main-prize {
+        flex: 1 !important;
+        padding: 20px !important;
+        border: 2px solid #000000 !important;
+        background: #ffffff !important;
+        text-align: center !important;
+        border-radius: 5px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    
+    .lottery-main-prize h2, .lottery-draw-date {
+    	color: #0000e1 !important;
+    }
+
+    /* 📌 Full-Width Reward Number */
+    .lottery-main-prize .lottery-prize-number {
+        font-size: 30px !important;
+        font-weight: bold !important;
+        color: #333333 !important;
+        display: block !important;
+        width: 100% !important;  /* ✅ Fullwidth */
+        text-align: center !important;
+    }
+
+    /* 📌 Right Side - 3-Digit Sections */
+    .lottery-three-container {
+        flex: 1 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important; /* Spacing between the two blocks */
+    }
+
+    /* 🔄 3-Digit Box */
+    .lottery-three-digit {
+        padding: 10px !important;
+        border: 2px solid #000000 !important;
+        background: #ffffff !important;
+        text-align: center !important;
+        border-radius: 5px !important;
+    }
+
+    /* 🔥 Title & Text Adjustments */
+    .lottery-three-digit h3 {
+        font-size: 20px !important;
+        font-weight: bold !important;
+        color: #0000e1 !important;
+    }
+
+    .lottery-three-digit .lottery-prize-amount {
+        font-size: 16px !important;
+        color: #333333 !important;
+    }
+
+    .lottery-three-digit .lottery-prize-numbers {
+        display: flex !important;
+        justify-content: center !important;
+        gap: 10px !important; /* Space between numbers */
+    }
+
+    /* ✅ Fullwidth Prize Number */
+    .lottery-three-digit .lottery-prize-number {
+        font-weight: bold !important;
+        font-size: 20px !important;
+        color: #333333 !important;
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }

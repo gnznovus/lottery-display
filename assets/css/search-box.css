@@ -1,0 +1,159 @@
+/* 🌟 GENERAL CUSTOM SWEETALERT STYLE */
+.swal-custom-popup {
+    background: #fff !important;
+    border-radius: 12px !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2) !important;
+    padding: 20px !important;
+}
+
+.swal-custom-title {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: #007bff !important;
+}
+
+.swal2-html-container {
+    font-size: 18px !important;
+    color: #545454 !important;
+    font-family: "Kanit", sans-serif !important;
+    padding: 15px !important;
+    text-align: center !important;
+}
+
+.swal-custom-button {
+    background-color: #673AB7 !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    padding: 10px 20px !important;
+    border-radius: 6px !important;
+}
+
+/* Search Box Container */
+.lottery-search-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 400px; /* Limit max width for better control */
+    margin-left: auto;
+    margin-right: auto; /* Center the container */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Ensure inputs do not overflow the container */
+.lottery-search-box *,
+.reward-date,
+.lottery-number,
+.search-btn {
+    box-sizing: border-box;
+}
+
+/* Select dropdown */
+.reward-date {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 12px;
+    transition: border-color 0.3s ease;
+}
+
+.reward-date:focus {
+    border-color: #673ab7;
+    outline: none;
+}
+
+/* Input field for lottery number */
+.lottery-number {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+    text-align: center;
+}
+
+.lottery-number:focus {
+    border-color: #673ab7;
+    outline: none;
+}
+
+/* Search button styling */
+.search-btn {
+	width: 100%;
+    background-color: #ff9300;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #5e2a9c;
+}
+
+/* Styling for the result content */
+.search-results {
+    background-color: #fff;
+    border: 2px solid #d1d1d1; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Center the content */
+}
+
+.search-results h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+.search-results p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.search-results .lottery-results-container {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.result-content {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust for smaller screens */
+@media screen and (max-width: 600px) {
+    .lottery-search-box {
+        padding: 15px;
+    }
+
+    .reward-date, #lottery-number, #search-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

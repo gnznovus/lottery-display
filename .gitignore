@@ -1,0 +1,21 @@
+# WordPress / wp-env
+.wp-env/
+.wp-env.json
+
+# Node / tooling
+node_modules/
+
+# PHP deps
+vendor/
+
+# Env
+.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log

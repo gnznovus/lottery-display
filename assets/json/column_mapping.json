@@ -1,0 +1,31 @@
+{
+    "rewardTypeMapping": {
+        "reward_four": "เลข 4 ตัว",
+        "reward_three": "เลข 3 ตัว",
+        "reward_two": "เลข 2 ตัว",
+        "reward_twoUp": "เลข 2 ตัวบน",
+        "reward_twoDown": "เลข 2 ตัวล่าง",
+        "reward_threeUp": "เลข 3 ตัวบน",
+        "first_prize": "รางวัลที่ 1",
+        "near_first_prize": "รางวัลข้างเคียงรางวัลที่ 1",
+        "front_3_digits": "เลขหน้า 3 ตัว",
+        "back_3_digits": "เลขท้าย 3 ตัว",
+        "last_2_digits": "เลขท้าย 2 ตัว",
+        "prize_2": "รางวัลที่ 2",
+        "prize_3": "รางวัลที่ 3",
+        "prize_4": "รางวัลที่ 4",
+        "prize_5": "รางวัลที่ 5",
+        "full_result": "เลข 4 ตัว",
+        "top_3_digits": "เลข 3 ตัวบน",
+        "bottom_2_digits": "เลข 2 ตัวล่าง"
+    },
+    "sourceDisplayNames": {
+        "huayrat": "สลากกินแบ่งรัฐบาล",
+        "huaylao": "หวยลาว",
+        "huaymaley": "หวยมาเลย์",
+        "huayhanoy_special": "หวยฮานอยพิเศษ",
+        "huayhanoy_normal": "หวยฮานอยปกติ",
+        "huayhanoy_vip": "หวยฮานอย VIP",
+        "huaystock": "หวยหุ้น"
+    }
+}
